@@ -62,10 +62,10 @@ body {
 
 header {
   box-shadow: 0 2px 2px -1px #ececec;
+  padding: 24px 0px;
 }
 .navigation {
   display: flex;
-  padding: 24px 0px;
 }
 .nav-list {
   display: flex;
@@ -105,7 +105,7 @@ header {
   color: var(--dark);
   cursor: pointer;
 
-  margin-left: 325px;
+  margin-left: 330px;
 }
 .navigation-item {
   font-weight: 600;
@@ -256,7 +256,11 @@ header {
 
 .our-team-img {
   display: inline-block;
-  margin-bottom: 32px;
+}
+.our-team-name-position {
+  padding-top: 32px;
+
+  padding-bottom: 32px;
 }
 .our-team-name {
   font-weight: 600;
@@ -271,8 +275,6 @@ header {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-
-  margin-bottom: 32px;
 }
 
 .our-team-cards:not(:last-child) {
@@ -281,6 +283,10 @@ header {
 
 /* ___________________________________________Portfolio_________________ */
 
+.hero-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .main-title {
   color: transparent;
   font-size: 0;
@@ -288,8 +294,9 @@ header {
 
 .filters {
   display: flex;
+  margin-bottom: 72px;
 }
-.filter-button {
+.button {
   background-color: var(--light);
   cursor: pointer;
   /* border: 1px solid #e7e9fc; */
@@ -301,8 +308,6 @@ header {
   letter-spacing: 0.04em;
   color: var(--iris);
 
-  margin-top: 96px;
-  margin-bottom: 72px;
   padding: 8px 16px;
 }
 .filter-button:hover {
@@ -312,34 +317,25 @@ header {
   background-color: var(--iris);
   color: var(--light);
 }
-.button-all {
+.filter-buttons {
+  margin-right: 24px;
+}
+.first-button {
   margin-left: 271px;
 }
 .text-buttons {
   display: inline-block;
   padding: 4px 8px;
 }
-.button-web {
-  margin-left: 24px;
-  margin-right: 24px;
+.last-button {
+  margin-right: 0;
 }
 
-.button-design {
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
-.project-type {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--text);
-}
 .card-list {
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-
 }
 .portfolio-card {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -356,26 +352,30 @@ header {
 
 .bottom-card {
   row-gap: 0px;
-  margin-bottom: 120px;
 }
+.project-name-type {
+  padding-left: 16px;
+  padding-bottom: 32px;
+}
+.project-type {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
 
+}
 .project-name {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   color: var(--dark);
 
-  margin-left: 16px;
   margin-bottom: 8px;
-}
-.project-type {
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 /* _____________________Footer_________________ */
 footer {
   background-color: var(--dark);
+  padding-top: 100px;
 
   padding-bottom: 100px;
 }
@@ -388,7 +388,6 @@ footer {
 }
 .logo-footer {
   display: inline-block;
-  margin-top: 100px;
   margin-bottom: 16px;
 }
 .studio-footer {

@@ -18,20 +18,21 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container navigation">
             <nav class="navigation">
                 <!-- logo -->
                 <a class="logo" href="./index.html"><span class="web">Web</span><span class="studio">studio</span></a>
                 <ul class="nav-list">
                     <li><a class="navigation-item" href="./index.html">Studio</a></li>
                     <li><a class="navigation-item" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="navigation-item" href="#">Contacts</a></li>
-                </ul>
-                <ul class="nav-contacts">
-                    <li><a class="contacts-item1" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="contacts-item2" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                    <li><a class="navigation-item" href="./test.html">Contacts</a></li>
                 </ul>
             </nav>
+            <ul class="nav-contacts">
+                <li><a class="contacts-item1" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contacts-item2" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            </ul>
+
         </div>
     </header>
 
@@ -76,18 +77,21 @@
                     </li>
                 </ul>
             </section>
+            </div>
             <!-- What we do -->
-            <section class="what-we-do section">
-                <h2 class="what-we-do-title">What are we doing</h2>
-                <ul class="what-we-do-cards">
-                    <li class="what-we-do-card"><img class="what-we-do-img" width="360"
-                            src="./images/main/application.jpg" alt="development"></li>
-                    <li class="what-we-do-card"><img class="what-we-do-img" width="360" src="./images/main/mobapp.jpg"
-                            alt="mobile-application"></li>
-                    <li class="what-we-do-card"><img class="what-we-do-img" width="360" src="./images/main/design.jpg"
-                            alt="web-design"></li>
-                </ul>
-            </section>
+<div class="container">
+                <section class="what-we-do section">
+                    <h2 class="what-we-do-title">What are we doing</h2>
+                    <ul class="what-we-do-cards">
+                        <li class="what-we-do-card"><img class="what-we-do-img" width="360"
+                                src="./images/main/application.jpg" alt="development"></li>
+                        <li class="what-we-do-card"><img class="what-we-do-img" width="360" src="./images/main/mobapp.jpg"
+                                alt="mobile-application"></li>
+                        <li class="what-we-do-card"><img class="what-we-do-img" width="360" src="./images/main/design.jpg"
+                                alt="web-design"></li>
+                    </ul>
+                </section>
+
         </div>
         <!-- Our team -->
 
@@ -97,27 +101,35 @@
                 <ul class="our-team-list">
                     <li class="our-team-cards">
                         <img class="our-team-img" width="264px" src="./images/main/mark.jpg" alt="man in shirt">
-                        <h3 class="our-team-name">Mark Guerrero</h3>
-                        <p class="our-team-position">Product Designer</p>
+                        <div class="our-team-name-position">
+                            <h3 class="our-team-name">Mark Guerrero</h3>
+                            <p class="our-team-position">Product Designer</p>
+                        </div>
                     </li>
                     <li class="our-team-cards">
 
                         <img class="our-team-img" width="264px" src="./images/main/tom.jpg" alt="smiled man in shirt">
-                        <h3 class="our-team-name">Tom Ford</h3>
-                        <p class="our-team-position">Frontend Developer</p>
+                        <div class="our-team-name-position">
+                            <h3 class="our-team-name">Tom Ford</h3>
+                            <p class="our-team-position">Frontend Developer</p>
+                        </div>
 
                     </li>
                     <li class="our-team-cards">
                         <img class="our-team-img" width="264px" src="./images/main/camila.jpg"
                             alt="girl in pink blouse">
-                        <h3 class="our-team-name">Camila Garcia</h3>
-                        <p class="our-team-position">Marketing</p>
+                        <div class="our-team-name-position">
+                            <h3 class="our-team-name">Camila Garcia</h3>
+                            <p class="our-team-position">Marketing</p>
+                        </div>
                     </li>
                     <li class="our-team-cards">
                         <img class="our-team-img" width="264px" src="./images/main/daniel.jpg"
                             alt="smiled men in t-shirt">
-                        <h3 class="our-team-name">Daniel Wilson</h3>
-                        <p class="our-team-position">UI Designer</p>
+                        <div class="our-team-name-position">
+                            <h3 class="our-team-name">Daniel Wilson</h3>
+                            <p class="our-team-position">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
