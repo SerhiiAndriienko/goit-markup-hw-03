@@ -100,12 +100,12 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.03em;
 }
-.nav-contacts {
+.contacts {
   display: flex;
   color: var(--dark);
   cursor: pointer;
 
-  margin-left: 330px;
+  margin-left: auto;
 }
 .navigation-item {
   font-weight: 600;
@@ -344,7 +344,6 @@ header {
 }
 .card-img {
   display: inline-block;
-  margin-bottom: 32px;
 }
 .right-card {
   column-gap: 0px;
@@ -356,6 +355,8 @@ header {
 .project-name-type {
   padding-left: 16px;
   padding-bottom: 32px;
+  padding-top: 32px;
+
 }
 .project-type {
   font-size: 16px;
